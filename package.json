@@ -1,0 +1,11 @@
+{
+    "name": "hash_checker",
+    "version": "1.0.0",
+    "main": "index.html",
+    "window": {
+        "title": "Verificador de Hash de Arquivo",
+        "width": 400,
+        "height": 300,
+        "resizable": false
+    }
+}
