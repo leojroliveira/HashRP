@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch: # Adiciona a capacidade de disparar o workflow manualmente
 
 jobs:
   build:
@@ -31,3 +32,4 @@ jobs:
       with:
         name: build
         path: build.zip
+
